@@ -2,10 +2,8 @@
 
 A modern, responsive quiz application built with React, TypeScript, and TailwindCSS. Take quizzes, track your progress, and review your performance with detailed analytics.
 
-![Home Page](./screenshots/home.png)
-
 ## 🎥 Demo
-![video](https://github.com/user-attachments/assets/ad8adff7-bb2d-4433-ae91-161d1b0de1a1)
+[View Video](https://github.com/user-attachments/assets/ad8adff7-bb2d-4433-ae91-161d1b0de1a1)
 
 ## ✨ Features
 
