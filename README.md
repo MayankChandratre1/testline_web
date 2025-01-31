@@ -1,50 +1,64 @@
-# React + TypeScript + Vite
+# Testline Quiz Application
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern, responsive quiz application built with React, TypeScript, and TailwindCSS. Take quizzes, track your progress, and review your performance with detailed analytics.
 
-Currently, two official plugins are available:
+![Home Page](./screenshots/home.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🎥 Demo
 
-## Expanding the ESLint configuration
+[Watch Demo Video](./demo/walkthrough.mp4)
 
-If you are developing a production application, we recommend updating the configuration to enable type aware lint rules:
+## ✨ Features
 
-- Configure the top-level `parserOptions` property like this:
+- **Interactive Quiz Interface**
+  - Real-time answer selection
+  - Timer for each quiz
+  - Smooth navigation between questions
+  - Progress tracking
 
-```js
-export default tseslint.config({
-  languageOptions: {
-    // other options...
-    parserOptions: {
-      project: ['./tsconfig.node.json', './tsconfig.app.json'],
-      tsconfigRootDir: import.meta.dirname,
-    },
-  },
-})
-```
+- **Detailed Analytics**
+  - Score calculation with negative marking
+  - Performance statistics
+  - Wrong answer review system
+  - Historical quiz attempts tracking
 
-- Replace `tseslint.configs.recommended` to `tseslint.configs.recommendedTypeChecked` or `tseslint.configs.strictTypeChecked`
-- Optionally add `...tseslint.configs.stylisticTypeChecked`
-- Install [eslint-plugin-react](https://github.com/jsx-eslint/eslint-plugin-react) and update the config:
+- **Modern UI/UX**
+  - Responsive design for all devices
+  - Custom scrollbars
+  - Smooth animations
+  - Dark theme optimized
 
-```js
-// eslint.config.js
-import react from 'eslint-plugin-react'
+## 🚀 Tech Stack
 
-export default tseslint.config({
-  // Set the react version
-  settings: { react: { version: '18.3' } },
-  plugins: {
-    // Add the react plugin
-    react,
-  },
-  rules: {
-    // other rules...
-    // Enable its recommended rules
-    ...react.configs.recommended.rules,
-    ...react.configs['jsx-runtime'].rules,
-  },
-})
-```
+- React + TypeScript
+- TailwindCSS for styling
+- Lucide Icons
+- React Router for navigation
+- Local Storage for data persistence
+
+## 📸 Screenshots
+
+### Home Page
+![Home Page](./results/home_ds.png)
+![Home Page](./results/home_mb.png)
+![Home Page](./results/home_mb2.png)
+
+### Quiz Interface
+![Quiz Page](./results/quiz_ds.png)
+![Quiz Page](./results/quiz_mb.png)
+
+### Results Summary
+![Summary Page](./results/summary.png)
+
+## 📹Result Video
+![Video](./results/result.mkv)
+
+## 🛠️ Setup & Installation
+
+1. Clone the repository:
+`git clone https://github.com/MayankChandratre1/testline_web.git`
+
+2. `cd testline_web`
+3. `npm install`
+4. `npm run dev`
+5. You can see results at `http://localhost:5173`
