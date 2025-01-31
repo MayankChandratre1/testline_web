@@ -51,7 +51,7 @@ A modern, responsive quiz application built with React, TypeScript, and Tailwind
 ![Summary Page](./results/summary.png)
 
 ## 📹Result Video
-![Video](https://github.com/MayankChandratre1/testline_web/blob/main/results/result.mkv)
+![Video](./results/result.mp4)
 
 ## 🛠️ Setup & Installation
 
