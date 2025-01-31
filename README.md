@@ -5,8 +5,7 @@ A modern, responsive quiz application built with React, TypeScript, and Tailwind
 ![Home Page](./screenshots/home.png)
 
 ## 🎥 Demo
-
-[Watch Demo Video](./demo/walkthrough.mp4)
+![video](https://github.com/user-attachments/assets/ad8adff7-bb2d-4433-ae91-161d1b0de1a1)
 
 ## ✨ Features
 
@@ -50,8 +49,6 @@ A modern, responsive quiz application built with React, TypeScript, and Tailwind
 ### Results Summary
 ![Summary Page](./results/summary.png)
 
-## 📹Result Video
-![Video](./results/result.mp4)
 
 ## 🛠️ Setup & Installation
 
